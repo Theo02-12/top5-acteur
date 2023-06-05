@@ -54,6 +54,32 @@ button:hover{
 .swipe{
     background-color: white;
     transition: all .2s linear;
+    overflow: hidden;
+    width: 0px;
+}
+.swipe ul{
+    height: 100%;
+    width: 180px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.swipe ul li{
+    margin: 20px 0;
+}
+.swipe ul li:first-child{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Limelight', sans-serif;
+}
+.swipe ul li:nth-child(2){
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: blue;
+    font-family: 'Lobster', 'sans-serif';
 }
 .actor{
     display: flex;
@@ -61,6 +87,8 @@ button:hover{
 .actor .img{
     width: 140px;
     background-image: url(/images/bw-image.jpg);
+    transition: all .4s linear;
+    transform-origin: left;
     background-size: cover;
 }
 .diesel .img{
