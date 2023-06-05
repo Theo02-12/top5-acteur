@@ -1,0 +1,125 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+ul,ol
+{
+    list-style: none ;
+}
+body
+{
+    background: #bfbfbf url('images/background.jpg') repeat-x; 
+    font-family: Arial, sans-serif;
+}
+header
+{
+    padding: 30px 0;
+}
+header h1
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Limelight', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #000;
+}
+section{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 540px;
+    margin: 20px auto;
+}
+footer{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 20px;
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(10, 25, 77);
+    border: none;
+    color: white;
+    transition: background-color .3s linear;
+}
+button:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+.actor{
+    display: flex;
+}
+.actor .img{
+    width: 140px;
+    background-image: url(/images/bw-image.jpg);
+    background-size: cover;
+}
+.diesel .img{
+    background-position: 25%, 0%;
+}
+.imen .img{
+    width: 137px;
+    background-position: 50.5%, 0%;
+}
+.jessica .img{
+    background-position: 75%, 0%;
+}
+.zita .img{
+    background-position: 100%, 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
