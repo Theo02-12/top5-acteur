@@ -29,7 +29,7 @@ section{
     display: flex;
     justify-content: center;
     width: 70%;
-    height: 540px;
+    height: 600px;
     margin: 20px auto;
 }
 footer{
@@ -67,6 +67,11 @@ button:hover{
 }
 .swipe ul li{
     margin: 20px 0;
+    padding: 5px;
+    border-radius: 10px;
+}
+.swipe ul li:hover{
+    background-color: lightgray;
 }
 .swipe ul li:first-child{
     font-size: 25px;
@@ -81,11 +86,17 @@ button:hover{
     background-color: blue;
     font-family: 'Lobster', 'sans-serif';
 }
+.imen .swipe{
+    width: 200px;
+}
+.imen .img{
+    background-image: url(/images/color-image.jpg);
+}
 .actor{
     display: flex;
 }
 .actor .img{
-    width: 140px;
+    width: 165px;
     background-image: url(/images/bw-image.jpg);
     transition: all .4s linear;
     transform-origin: left;
@@ -95,7 +106,6 @@ button:hover{
     background-position: 25%, 0%;
 }
 .imen .img{
-    width: 137px;
     background-position: 50.5%, 0%;
 }
 .jessica .img{
@@ -104,54 +114,3 @@ button:hover{
 .zita .img{
     background-position: 100%, 0%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
